@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="來源檔案">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{6abc21c2-b0a7-491d-93e2-4b7ced01dc17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{f3a4d0be-38c9-4f8e-bc52-dd052a7e4e05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XorString">
+      <UniqueIdentifier>{73552e5b-290d-4c86-873c-880f1246bda9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vector">
+      <UniqueIdentifier>{4e80da45-21d1-460f-b722-93b8e01a8baa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Drawing">
+      <UniqueIdentifier>{29c64851-d4c6-4162-9a9c-5df02f4318d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ParseMsg">
+      <UniqueIdentifier>{82765574-375f-497b-b815-db1608e19896}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\gl.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\gl3w.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\glu.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\gl3winit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\glcorearb.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\image_DXT.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\image_helper.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stbi_DDS_aug_c.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_opengl2.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_opengl3.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\soil.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_image_aug.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_rect_pack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stbi_DDS_aug.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGlobe.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="detours.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuControls.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="XorStr\obfuscation.h">
+      <Filter>XorString</Filter>
+    </ClInclude>
+    <ClInclude Include="XorStr\xorstr.h">
+      <Filter>XorString</Filter>
+    </ClInclude>
+    <ClInclude Include="StringList.h">
+      <Filter>XorString</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="Dropdown.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="Speed.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="keydefs.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLHook.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="QAngle.h">
+      <Filter>Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Kreedz.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="DirtyWords.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawing.h">
+      <Filter>Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="ThemidaSDK.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHook.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="FixFunction.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="UserMsg.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="parsemsg.h">
+      <Filter>ParseMsg</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiAim.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="HidePEB.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="Radar.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="FontFile.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\gl3w.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\gl3winit.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\image_DXT.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\image_helper.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_opengl2.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_opengl3.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\soil.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\stb_image_aug.c">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>標頭檔</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuControls.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Function.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="Data.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="Speed.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLHook.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="Aimbot.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="ESP.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="Render.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="QAngle.cpp">
+      <Filter>Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="Kreedz.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="DirtyWords.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawing.cpp">
+      <Filter>Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="EventHook.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="UserMsg.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="parsemsg.cpp">
+      <Filter>ParseMsg</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiAim.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="Radar.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

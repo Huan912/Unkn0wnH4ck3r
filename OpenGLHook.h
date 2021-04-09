@@ -1,0 +1,1 @@
+DWORD WINAPI StepToHookFloatv(LPVOID lpThreadParameter);
