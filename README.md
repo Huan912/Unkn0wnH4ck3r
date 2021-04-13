@@ -24,6 +24,6 @@
 
 ## Special Thanks!
 
-> **Special thanks to Hardee for providing what I think is an amazing way to write W2C**
+> **Special thanks to Hardee for providing what I think is an amazing way to write W2S**
 >
 > [Hardee (UnKnoWnCheaTs)](https://www.unknowncheats.me/forum/members/2237549.html)
